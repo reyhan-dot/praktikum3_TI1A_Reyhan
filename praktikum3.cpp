@@ -11,7 +11,7 @@ int main()
 	cout << "Huruf atau angka:";
 		cin >> pilihan;
 
-	for (int i = 0; i < n; i++){
+	for (int i = 0; i < n; i++){ //untuk segitiga biasa
 
 		for (int k = 0; k < n - i; k++){ //untuk menata segitiga
 			cout << " ";
@@ -35,4 +35,5 @@ int main()
 	}
 	return 0;
 }
+
 //time spend 1 hour
